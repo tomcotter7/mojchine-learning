@@ -1,0 +1,12 @@
+[project]
+channels = ["conda-forge", "https://conda.modular.com/max", "https://repo.prefix.dev/modular-community"]
+description = "Add a short description here"
+name = "mojo-ml"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+max = "*"
+scikit-learn = ">=1.6.1,<2"
